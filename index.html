@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="A cute and fun Valentine's Day proposal with an interactive question and random stickers!"
+    />
+    <meta
+      name="keywords"
+      content="Valentine, Love, Cute Proposal, Funny Valentine, Stickers"
+    />
+    <meta name="author" content="Your Name" />
+
+    <!-- Open Graph for Social Sharing -->
+    <meta property="og:title" content="Will You Be My Valentine?" />
+    <meta
+      property="og:description"
+      content="A fun and interactive way to ask someone to be your Valentine! 💖"
+    />
+    <meta property="og:image" content="./assets/sample.gif" />
+    <meta property="og:url" content="https://yourwebsite.com/valentine" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Will You Be My Valentine?" />
+    <meta
+      name="twitter:description"
+      content="A fun and interactive way to ask someone to be your Valentine! 💖"
+    />
+    <meta name="twitter:image" content="./assets/sample.gif" />
+
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/heart-icon.png" type="image/png" />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./css/styles.css" />
+
+    <title>Will You Be My Valentine? 💘</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">For My Valentine 💖</h1>
+    </header>
+
+    <main>
+      <!-- Sticker Popup -->
+      <div class="sticker_popup">
+        <img
+          class="sticker_img"
+          src="./assets/sample.gif"
+          alt="Cute Valentine Sticker"
+        />
+      </div>
+
+      <!-- Valentine Question -->
+      <section class="question">
+        <h2>Will You Be My Valentine? 💕</h2>
+        <div>
+          <button type="submit" class="yes">Yes</button>
+          <button type="submit" class="no">No</button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Popup for Random Sticker -->
+    <div id="popup">
+      <p id="randomWord">Are You Sure?</p>
+      <img id="sticker" class="sticker" alt="Random Sticker">
+      <br>
+      <button onclick="closePopup()">Close</button>
+    </div>
+    
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
