@@ -1,6 +1,6 @@
 const yesButton = document.querySelector(".yes");
 yesButton.addEventListener("click", () => {
-  window.location = window.location.pathname + "page/Yes.html";
+  window.location.replace("page/Yes.html");  // No leading slash
 });
 
 const words = [
