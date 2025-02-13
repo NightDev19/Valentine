@@ -1,6 +1,6 @@
 const yesButton = document.querySelector(".yes");
 yesButton.addEventListener("click", () => {
-  window.location.href = "/page/Yes.html"; // Use href instead of replace
+  window.location.href = "page/Yes.html"; // Use href instead of replace
 });
 
 const words = [
